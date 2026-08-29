@@ -22,7 +22,7 @@ Reflex replaces the WhatsApp groups that small retailers use to manage deliverie
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-org>/reflex.git
+git clone [https://github.com/<your-org>/reflex.git](https://github.com/ssteve221/reflex.git)
 cd reflex
 npm install
 npm run dev
