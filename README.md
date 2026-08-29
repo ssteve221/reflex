@@ -17,12 +17,12 @@ Reflex replaces the WhatsApp groups that small retailers use to manage deliverie
 
 ## Live demo
 
-🌐 [https://reflex-delivery.onrender.com](https://reflex-delivery.onrender.com) _(deploy and update this link)_
+https://reflex-ofux.onrender.com
 
 ## Quick start
 
 ```bash
-git clone [https://github.com/<your-org>/reflex.git](https://github.com/ssteve221/reflex.git)
+(https://github.com/ssteve221/reflex.git)
 cd reflex
 npm install
 npm run dev
@@ -37,28 +37,6 @@ npm run test          # Vitest unit tests
 npm run test:coverage # with coverage report
 npm run test:e2e      # Playwright e2e (auto-starts dev server)
 ```
-
-## Documentation
-
-| Document | Purpose |
-|----------|---------|
-| [docs/SETUP.md](docs/SETUP.md) | Cross-machine setup (Linux, macOS, Windows) |
-| [docs/DEPLOY.md](docs/DEPLOY.md) | Render + Vercel deployment guide |
-| [docs/TRADE_OFFS.md](docs/TRADE_OFFS.md) | Architecture trade-offs and weak points |
-| [docs/DEMO_SCRIPT.md](docs/DEMO_SCRIPT.md) | 10-minute demo script with speaker assignments |
-| [docs/DECK_OUTLINE.md](docs/DECK_OUTLINE.md) | Presentation deck outline (one takeaway per slide) |
-| [docs/TIMING_LOG.md](docs/TIMING_LOG.md) | Dry run timing log |
-| [docs/TEAM_TASKS.md](docs/TEAM_TASKS.md) | 5-person task breakdown and git workflow |
-
-## Team
-
-| Name | Role | Branch |
-|------|------|--------|
-| P1 | Project Lead | `setup` |
-| P2 | Storage & Data | `feature/storage-layer` |
-| P3 | UI Components | `feature/ui-components` |
-| P4 | QA & Testing | `feature/tests` |
-| P5 | Docs & DevOps | `feature/docs` |
 
 ## Stack
 
