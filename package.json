@@ -14,7 +14,14 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
     "lucide-react": "^1.37.0",
+    "pg": "^8.23.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "xlsx": "^0.18.5"
@@ -29,10 +36,28 @@
     "@vitest/coverage-v8": "^4.1.11",
     "autoprefixer": "^10.5.4",
     "jsdom": "^30.0.1",
+    "nodemon": "^3.1.14",
     "oxlint": "^1.79.0",
     "postcss": "^8.5.26",
     "tailwindcss": "^3.4.19",
     "vite": "^8.2.2",
     "vitest": "^4.1.11"
-  }
+  },
+  "description": "> A delivery management system for small Kenyan retailers built for the PLP Academy Week 3 assignment.",
+  "main": "playwright.config.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssteve221/reflex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssteve221/reflex/issues"
+  },
+  "homepage": "https://github.com/ssteve221/reflex#readme"
 }
